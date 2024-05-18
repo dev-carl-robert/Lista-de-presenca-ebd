@@ -7,7 +7,7 @@
         *E alguma funcionalidades que ainda serão adicionadas
     
     #Estou usando para progamar este sistema:
-        *MongoDb - para criação do banco de dados.
+        *Mysql - para criação do banco de dados.
         *Python - linguagem escolhida para o Backend.
             >Flask - biblioteca python
         *Html e Css - Para o Frontend
