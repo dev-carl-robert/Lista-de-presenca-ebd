@@ -1,19 +1,21 @@
-Alunos = [
-    {"nome": "Miguel", "sobrenome": "Santos", "idade": 17, "sexo": "masculino", "telefone": "9####-####", "classe": "jovens"},
-    {"nome": "Robert", "sobrenome": "Santos", "idade": 22, "sexo": "masculino", "telefone": "9####-####", "classe": "jovens"},
-]
+import csv
+from pathlib import Path
+
+ROOT_PATH = Path(__file__).parent
 
 
-def acessar_aluno():
-    print('escolha o numero do aluno desejado')
-    aluno_escolhido = int(input("Qual aluno deseja acessar?"))
-    aluno_acessado = Alunos[aluno_escolhido]
-    
-    print(30 * "_")
-    print(f"Nome Completo: {aluno_acessado['nome']} {aluno_acessado['sobrenome']}")
-    print(f"Idade: {aluno_acessado['idade']}")
-    print(f"Sexo: {aluno_acessado['sexo']}")
-    print(f"Telefone: {aluno_acessado['telefone']}")
-    print(f"Classe: {aluno_acessado['classe']}")
-    print(30 * "_")
-acessar_aluno()
+nome = input("Qual o nome do aluno? ")
+sobrenome = input("Qual o sobrenome do aluno? ")
+idade = input("Qual a idade do aluno? ")
+data_de_nascimento = input("Qual a data de nascimento do aluno? ")
+sexo = input("Qual o sexo do aluno? ")
+telefone = input("Qual o telefone do aluno? ")
+classe = input("Qual a classe do aluno? ")
+professorResponsavel = input("Qual professor responsavel do aluno? ")
+
+with open(ROOT_PATH / "alunos.csv", "a", encoding="utf-8", newline="") as arquivoAluno:
+    indice = 00 
+    escritorAluno = csv.writer(arquivoAluno)
+    escritorAluno.writerow([(indice + 1), nome, sobrenome, idade, data_de_nascimento, sexo, telefone, classe, professorResponsavel])
+
+
