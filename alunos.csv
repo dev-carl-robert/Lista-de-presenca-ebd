@@ -1,1 +1,5 @@
-matricula,nome,sobrenome,idade,data_de_nascimento,sexo,telefone,classe,professorResponsavel
+matricula,nome,sobrenome,idade,data_de_nascimento,sexo,telefone,classe,professor
+1,miguel,robert,17,18/10/2006,masculino,98987876523,jovens,robert
+2,silas,cou,15,74/82/2992,masculino,98987878787,jovens,robert
+3,apolo,nari,18,9292929,masculino,9898989,jovens,robert
+3,david,brasil,18,8181881,masculino,88787287,jovens,robert
