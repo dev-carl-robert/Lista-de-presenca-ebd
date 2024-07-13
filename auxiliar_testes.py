@@ -1,7 +1,7 @@
 import csv
 from pathlib import Path
 import pandas as pd
-import re
+# import re
 
 ROOT_PATH = Path(__file__).parent
 caminho_csv = ROOT_PATH / "alunos.csv"
