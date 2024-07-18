@@ -26,17 +26,12 @@ for index, row in alunos_df.iterrows():
     print(f"{row['nome']} faz aniversário no dia {data_nascimento.day} do mês {data_nascimento.month}")
     print(f"Dias restantes até o próximo aniversário: {dias_restantes}")
     
-    if dias_restantes == 7:
-        print(f"falta uma semana para o aniversario de {row['nome']}")
-        whatsapp.sendwhatmsg_instantly("+55 98 8718-6908", f"falta uma semana para o aniversario de {row['nome']}", wait_time=60, tab_close=True, close_time=3)
-
-    elif dias_restantes < 7:
+    if dias_restantes <= 7:
         print()
-        whatsapp.sendwhatmsg_instantly("+55 98 8718-6908", f"restam {dias_restantes} dias para o aniverario de {row['nome']}", wait_time=60, tab_close=True, close_time=3)
-    
-    elif dias_restantes == 1:
-        print()
-        whatsapp.sendwhatmsg_instantly("+55 98 8718-6908", f"falta 1 dia para o aniverario de {row['nome']}", wait_time=60, tab_close=True, close_time=3)
+        whatsapp.sendwhatmsg_instantly("+55 98 8718-6908", 
+            f"""✝️Sistema de gerenciamento EBD✝️
+            faltam {dias_restantes} dias para o aniversário de {row['nome']} {row['sobrenome']}
+            {row['nome']} estará fazendo {row['idade']} anos""", wait_time=60, tab_close=True, close_time=10)
     else:    
         continue
     
