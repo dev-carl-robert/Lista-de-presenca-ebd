@@ -108,3 +108,18 @@ Time: 20:2
 Phone Number: +55 98 8534-6296
 Message: ✝️Sistema de gerenciamento EBD✝️ faltam 1 dias para o aniversário de Barnabé Sivério Barnabé estará fazendo 23 anos
 --------------------
+Date: 22/7/2024
+Time: 19:16
+Phone Number: +55 98 8718-6908
+Message: Sistema de gerenciamento EBD alerta de aniversário faltam 5 dias para o aniversário de Miguel Santos Miguel estará fazendo 18 anos
+--------------------
+Date: 22/7/2024
+Time: 19:26
+Phone Number: +55 98 8718-6908
+Message: Sistema de gerenciamento EBDalerta de aniversáriofaltam 5 dias para o aniversário de Miguel SantosMiguel estará fazendo 18 anos
+--------------------
+Date: 22/7/2024
+Time: 20:11
+Phone Number: +55 98 8718-6908
+Message: Sistema de gerenciamento EBDalerta de aniversáriofaltam 1 dias para o aniversário de Robert SantosRobert estará fazendo 22 anos
+--------------------
