@@ -1,0 +1,41 @@
+:root {
+    font-size: 62.5%;
+}
+
+body {
+
+}
+main {
+    overflow: hidden;
+    display: flex;
+}
+
+.hero{
+    width: 38%;
+    max-height: 599px;
+    overflow: hidden;
+    background-color: antiquewhite;
+}
+
+.hero img {
+    height: 100%;
+    object-fit: contain;
+}
+
+.login {
+    background-color: #F8FAFA;
+    width: 62%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login .logo {
+    max-width: 40rem;
+    max-height: 40rem;
+}
+.logo img {
+    max-width: 100%;
+    max-height: 100%;
+}
